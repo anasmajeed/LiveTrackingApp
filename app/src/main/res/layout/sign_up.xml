@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorControlHighlight"
+    tools:context="com.example.anas_ch.livetracking.SingUp">
+
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="330dp"
+        android:layout_height="270dp"
+        android:alpha=".5"
+        app:srcCompat="@android:color/background_light"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/userNameSignUp"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        android:autoText="true"
+        android:background="@drawable/edit_text_created"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true"
+        android:text="User ID"
+        android:textColor="@android:color/black"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignRight="@+id/imageView2"
+        android:layout_alignEnd="@+id/imageView2"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp" />
+
+    <Button
+        android:id="@+id/SignUpButton2"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/phoneNumberSignUp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="Register" />
+
+    <EditText
+        android:id="@+id/passwordSignUp"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/userNameSignUp"
+        android:layout_alignStart="@+id/userNameSignUp"
+        android:layout_below="@+id/userNameSignUp"
+        android:layout_marginTop="11dp"
+        android:autoText="true"
+        android:background="@drawable/edit_text_created"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="true"
+        android:text="Password"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/phoneNumberSignUp"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/passwordSignUp"
+        android:layout_alignStart="@+id/passwordSignUp"
+        android:layout_below="@+id/passwordSignUp"
+        android:layout_marginTop="16dp"
+        android:autoText="true"
+        android:background="@drawable/edit_text_created"
+        android:ems="10"
+        android:inputType="number"
+        android:selectAllOnFocus="true"
+        android:text="Number"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        app:srcCompat="@drawable/user"
+        android:layout_alignTop="@+id/userNameSignUp"
+        android:layout_toLeftOf="@+id/userNameSignUp"
+        android:layout_toStartOf="@+id/userNameSignUp"
+        android:layout_marginRight="11dp"
+        android:layout_marginEnd="11dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        app:srcCompat="@drawable/passsword"
+        android:layout_alignBottom="@+id/passwordSignUp"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="SignUp Panel"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_alignLeft="@+id/SignUpButton2"
+        android:layout_alignStart="@+id/SignUpButton2" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_alignTop="@+id/phoneNumberSignUp"
+        android:background="#4B0082"
+        app:srcCompat="@android:drawable/ic_dialog_dialer" />
+
+</RelativeLayout>

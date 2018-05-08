@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "622099882589",
+    "firebase_url": "https://livetracking-c298a.firebaseio.com",
+    "project_id": "livetracking-c298a",
+    "storage_bucket": "livetracking-c298a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622099882589:android:bd623b3453d62bde",
+        "android_client_info": {
+          "package_name": "com.example.anas_ch.livetracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622099882589-gsp1j86rbt8e590r61k6ri25cuuqc621.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anas_ch.livetracking",
+            "certificate_hash": "b09046b4df03f200e2345e668882cb5a5801e66e"
+          }
+        },
+        {
+          "client_id": "622099882589-9fp7ljldqktksdut2d8miot2nore6r58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDDCGeqcxGibNO-KDl5jLRAvHPw73niO4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622099882589-9fp7ljldqktksdut2d8miot2nore6r58.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
